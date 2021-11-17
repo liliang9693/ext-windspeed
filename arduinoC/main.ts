@@ -3,7 +3,7 @@
 namespace dfr0845_sen0483 {
     
     //% board="arduino, microbit, esp32"
-    //% block="初始化设备地址[ADDRESS]" blockType="command"
+    //% block="Initialize device address [ADDRESS]" blockType="command"
     //% ADDRESS.shadow="range"  ADDRESS.params.min=0 ADDRESS.params.max=255 ADDRESS.defl=2
     export function sen0483_modifyAddress(parameter: any, block: any) {
         
@@ -15,7 +15,7 @@ namespace dfr0845_sen0483 {
     }
 
     //% board="arduino, esp32"
-    //% block="读取风速（m/s）接口 [HARDSER] RX:[HARDRX] TX:[HARDTX]" blockType="reporter"
+    //% block="Read wind speed（m/s）interface [HARDSER] RX:[HARDRX] TX:[HARDTX]" blockType="reporter"
     //% HARDSER.shadow="dropdown" HARDSER.options="HARDSER" 
     //% HARDRX.shadow="dropdown" HARDRX.options="HARDRX"
     //% HARDTX.shadow="dropdown" HARDTX.options="HARDTX"
@@ -42,7 +42,7 @@ namespace dfr0845_sen0483 {
     }
 
     //% board="arduino, microbit, esp32"
-    //% block="读取风速（m/s）接口 [SOTFSER] RX:[SOFTRX] TX:[SOFTTX]" blockType="reporter"
+    //% block="Read wind speed（m/s）interface [SOTFSER] RX:[SOFTRX] TX:[SOFTTX]" blockType="reporter"
     //% SOTFSER.shadow="dropdown" SOTFSER.options="SOTFSER"
     //% SOFTRX.shadow="dropdown" SOFTRX.options="SOFTRX" 
     //% SOFTTX.shadow="dropdown" SOFTTX.options="SOFTTX" 

@@ -1,6 +1,6 @@
 {
 	"HARDSER": {
-        "menu":	[["硬串口1", "Serial1"], ["硬串口2", "Serial2"]],
+        "menu":	[["Serial1", "Serial1"], ["Serial2", "Serial2"]],
 		"default_sen0483_getWindSpeed1": "Serial1"
     },
     "HARDRX": {
@@ -12,7 +12,7 @@
 		"default_sen0483_getWindSpeed1": "P1"
 	},
     "SOTFSER": {
-        "menu":	[["软串口", "SoftwareSerial"]],
+        "menu":	[["SoftwareSerial", "SoftwareSerial"]],
 		"default_sen0483_getWindSpeed2": "SoftwareSerial"
     },
     "SOFTRX": {

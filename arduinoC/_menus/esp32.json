@@ -1,0 +1,26 @@
+{
+	"HARDSER": {
+        "menu":	[["硬串口1", "Serial1"], ["硬串口2", "Serial2"]],
+		"default_sen0483_getWindSpeed1": "Serial1"
+    },
+    "HARDRX": {
+		"menu":	[["P0","P0"],["P1","P1"],["P2","P2"],["P3","P3"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P11","P11"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"]],
+		"default_sen0483_getWindSpeed1": "P0"
+	},
+	"HARDTX": {
+		"menu":	[["P0","P0"],["P1","P1"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"]],
+		"default_sen0483_getWindSpeed1": "P1"
+	},
+    "SOTFSER": {
+        "menu":	[["软串口", "SoftwareSerial"]],
+		"default_sen0483_getWindSpeed2": "SoftwareSerial"
+    },
+    "SOFTRX": {
+		"menu":	[["P0","P0"],["P1","P1"],["P2","P2"],["P3","P3"],["P4","P4"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P10","P10"],["P11","P11"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"],["P19","P19"],["P20","P20"]],
+        "default_sen0483_getWindSpeed2": "P0"
+    },
+	"SOFTTX": {
+		"menu":	[["P0","P0"],["P1","P1"],["P5","P5"],["P6","P6"],["P7","P7"],["P8","P8"],["P9","P9"],["P11","P11"],["P13","P13"],["P14","P14"],["P15","P15"],["P16","P16"]],
+        "default_sen0483_getWindSpeed2": "P1"
+    }
+}

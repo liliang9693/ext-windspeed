@@ -1,0 +1,26 @@
+{
+	"HARDSER": {
+        "menu":	[["硬串口", "Serial"]],
+		"default_sen0483_getWindSpeed1": "Serial"
+    },
+    "HARDRX": {
+		"menu":	[["P0", "0"], ["P1", "1"], ["P2", "2"], ["P8", "8"], ["P12", "12"], ["P13", "13"], ["P14", "14"], ["P15", "15"], ["P16", "16"]],
+		"default_sen0483_getWindSpeed1": "0"
+	},
+	"HARDTX": {
+		"menu":	[["P0", "0"], ["P1", "1"], ["P2", "2"], ["P8", "8"], ["P12", "12"], ["P13", "13"], ["P14", "14"], ["P15", "15"], ["P16", "16"]],
+		"default_sen0483_getWindSpeed1": "1"
+	},
+    "SOTFSER": {
+        "menu":	[["软串口", "SoftwareSerial"]],
+		"default_sen0483_getWindSpeed2": "SoftwareSerial"
+    },
+    "SOFTRX": {
+		"menu":	[["P0", "0"], ["P1", "1"], ["P2", "2"], ["P3", "3"], ["P4", "4"], ["P5", "5"], ["P6", "6"], ["P7", "7"], ["P8", "8"], ["P9", "9"], ["P10", "10"]],
+		"default_sen0483_getWindSpeed2": "0"
+	},
+	"SOFTTX": {
+		"menu":	[["P0", "0"], ["P1", "1"], ["P2", "2"], ["P3", "3"], ["P4", "4"], ["P5", "5"], ["P6", "6"], ["P7", "7"], ["P8", "8"], ["P9", "9"], ["P10", "10"]],
+		"default_sen0483_getWindSpeed2": "1"
+	}
+}

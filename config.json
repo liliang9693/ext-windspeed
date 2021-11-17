@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "RS485风速变送器",
+		"en": "RS485 Wind speed"
+	},
+	"description": {
+		"zh-cn": "SEN0483:风速测量,需搭配RS485转UART模块使用(DFR0845)",
+		"en": "Used to measure the horizontal wind speed of the wind"
+	},
+	"author": "liliang",
+	"email": "liang.li@dfrobot.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "dfr0845_sen0483",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.2",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.2",
+			"board": ["arduino", "microbit", "esp32"],
+			"main": "main.ts"
+		}
+	}
+}
